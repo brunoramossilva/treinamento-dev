@@ -63,9 +63,10 @@ main p{
     font-size: 14px; /* Define o tamanho da fonte dos parágrafos */
 }
 
-footer{
+footer {
     display: flex; /* Exibe os elementos do rodapé em linha */
     justify-content: center; /* Centraliza os elementos horizontalmente */
+    margin-top: 70px; /* Adiciona margem acima para distanciar o footer da main */
 }
 
 footer div{
