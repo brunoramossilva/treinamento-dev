@@ -11,7 +11,7 @@ body{
 }
 
 .nav-bar a:hover{
-    color: darkblue; /* Altera a cor do link ao passar o mouse */
+    color: rgb(120, 185, 223); /* Altera a cor do link ao passar o mouse */
 }
 
 @media(width <= 400px) { /* Estilos para telas com largura menor ou igual a 400px */
@@ -42,12 +42,12 @@ a{
 }
 
 .profile-photo{
-    border-radius: 50%; /* Deixa a foto com bordas arredondadas (circular) */
-    width: 150px; /* Define a largura da foto */
+    border-radius: 10%; /* Deixa a foto com bordas arredondadas (circular) */
+    width: 120px; /* Define a largura da foto */
         /* border: 5px solid darkblue; */ 
-    border-width: 5px; /* Define a largura da borda */
+    border-width: 4px; /* Define a largura da borda */
     border-style: solid; /* Define o estilo da borda */
-    border-color: darkblue; /* Define a cor da borda */
+    border-color: rgb(255, 255, 255); /* Define a cor da borda */
 }
 
 main{
@@ -56,7 +56,7 @@ main{
 }
 
 main h1{
-    color: darkblue; /* Define a cor do título principal */
+    color: rgb(255, 255, 255); /* Define a cor do título principal */
 }
 
 main p{
