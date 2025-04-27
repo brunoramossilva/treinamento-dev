@@ -38,7 +38,7 @@ a{
 .profile-photo-container{
     display: flex; /* Centraliza a foto do perfil */
     justify-content: center;
-    margin-top: 40px; /* Adiciona espaçamento acima */
+    margin-top: 60px; /* Adiciona espaçamento acima */
 }
 
 .profile-photo{
@@ -70,12 +70,12 @@ footer {
 }
 
 footer div{
-    padding: 20px; /* Adiciona espaçamento interno aos elementos do rodapé */
+    padding: 40px; /* Adiciona espaçamento interno aos elementos do rodapé */
 }
 
 footer img{
-    width: 20px; /* Define a largura das imagens no rodapé */
-    padding-left: 10px; /* Adiciona espaçamento à esquerda das imagens */
+    width: 30px; /* Define a largura das imagens no rodapé */
+    padding-left: 15px; /* Adiciona espaçamento à esquerda das imagens */
 }
 
 footer a{
@@ -152,6 +152,67 @@ footer a{
     text-decoration: underline;
 }
 
+/* Estilos específicos para a página de contato simplificada */
+.contact-main {
+    margin-left: 30px;
+    margin-right: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact-container {
+    margin-top: 30px;
+}
+
+.contact-info {
+    background-color: #252525;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-method img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact-method span, 
+.contact-method a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    color: rgb(120, 185, 223);
+    text-decoration: underline;
+}
+
+@media (width <= 600px) {
+    .contact-main {
+        padding: 0 15px;
+    }
+    
+    .contact-info {
+        padding: 20px;
+    }
+}
+
 @media (width <= 600px) {
     .project-card {
         padding: 15px;
@@ -160,4 +221,26 @@ footer a{
     .projects-main {
         padding: 0 15px;
     }
+}
+
+/* Estilos para o copyright */
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 12px;
+    color: #888;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
