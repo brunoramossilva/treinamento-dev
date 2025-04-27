@@ -66,7 +66,7 @@ main p{
 footer {
     display: flex; /* Exibe os elementos do rodapé em linha */
     justify-content: center; /* Centraliza os elementos horizontalmente */
-    margin-top: 140px; /* Adiciona margem acima para distanciar o footer da main */
+    margin-top: 40px; /* Adiciona margem acima para distanciar o footer da main */
 }
 
 footer div{
