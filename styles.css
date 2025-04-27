@@ -1,5 +1,5 @@
 body{
-    background-color: #161616; /* Define a cor de fundo da página */
+    background-color: #242424; /* Define a cor de fundo da página */
     color: white; /* Define a cor do texto */
     font-family: 'poppins', sans-serif; /* Define a fonte principal */
 }
@@ -11,7 +11,7 @@ body{
 }
 
 .nav-bar a:hover{
-    color: rgb(120, 185, 223); /* Altera a cor do link ao passar o mouse */
+    color: rgb(104, 200, 255); /* Altera a cor do link ao passar o mouse */
 }
 
 @media(width <= 400px) { /* Estilos para telas com largura menor ou igual a 400px */
@@ -38,44 +38,44 @@ a{
 .profile-photo-container{
     display: flex; /* Centraliza a foto do perfil */
     justify-content: center;
-    margin-top: 60px; /* Adiciona espaçamento acima */
+    margin-top: 80px; /* Adiciona espaçamento acima */
 }
 
 .profile-photo{
-    border-radius: 10%; /* Deixa a foto com bordas arredondadas (circular) */
-    width: 160px; /* Define a largura da foto */
+    border-radius: 50%; /* Deixa a foto com bordas arredondadas (circular) */
+    width: 220px; /* Define a largura da foto */
         /* border: 5px solid darkblue; */ 
-    border-width: 4px; /* Define a largura da borda */
+    border-width: 3px; /* Define a largura da borda */
     border-style: solid; /* Define o estilo da borda */
-    border-color: rgb(255, 255, 255); /* Define a cor da borda */
+    border-color: rgb(104, 200, 255); /* Define a cor da borda */
 }
 
 main{
-    margin-left: 30px; /* Adiciona margem à esquerda */
-    margin-right: 20px; /* Adiciona margem à direita */
+    margin-left: 50px; /* Adiciona margem à esquerda */
+    margin-right: 30px; /* Adiciona margem à direita */
 }
 
 main h1{
-    color: rgb(120, 185, 223); /* Define a cor do título principal */
+    color: rgb(104, 200, 255); /* Define a cor do título principal */
 }
 
 main p{
-    font-size: 14px; /* Define o tamanho da fonte dos parágrafos */
+    font-size: 16px; /* Define o tamanho da fonte dos parágrafos */
 }
 
 footer {
     display: flex; /* Exibe os elementos do rodapé em linha */
     justify-content: center; /* Centraliza os elementos horizontalmente */
-    margin-top: 70px; /* Adiciona margem acima para distanciar o footer da main */
+    margin-top: 140px; /* Adiciona margem acima para distanciar o footer da main */
 }
 
 footer div{
-    padding: 40px; /* Adiciona espaçamento interno aos elementos do rodapé */
+    padding: 60px; /* Adiciona espaçamento interno aos elementos do rodapé */
 }
 
 footer img{
-    width: 30px; /* Define a largura das imagens no rodapé */
-    padding-left: 15px; /* Adiciona espaçamento à esquerda das imagens */
+    width: 40px; /* Define a largura das imagens no rodapé */
+    padding-left: 20px; /* Adiciona espaçamento à esquerda das imagens */
 }
 
 footer a{
@@ -100,12 +100,12 @@ footer a{
 }
 
 .project-card {
-    background-color: #252525;
+    background-color: #242424;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .project-card:hover {
@@ -113,7 +113,7 @@ footer a{
 }
 
 .project-card h4 {
-    color: rgb(120, 185, 223);
+    color: rgb(104, 200, 255);
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -133,7 +133,7 @@ footer a{
 
 .tech-tags span {
     background-color: #333;
-    color: rgb(120, 185, 223);
+    color: rgb(104, 200, 255);
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 12px;
@@ -141,7 +141,7 @@ footer a{
 }
 
 .project-link {
-    color: rgb(120, 185, 223) !important;
+    color: rgb(104, 200, 255) !important;
     font-weight: 500;
     font-size: 14px;
     display: inline-flex;
@@ -167,7 +167,7 @@ footer a{
 }
 
 .contact-info {
-    background-color: #252525;
+    background-color: #242424;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -199,7 +199,7 @@ footer a{
 }
 
 .contact-method a:hover {
-    color: rgb(120, 185, 223);
+    color: rgb(104, 200, 255);
     text-decoration: underline;
 }
 
